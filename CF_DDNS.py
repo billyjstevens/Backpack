@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-
+"""
+This script automates the process of updating a DNS (Domain Name System) record
+on Cloudflare with the current public IP address of the machine running the script.
+Use cron or an alternative service of your choice.
+"""
 import requests
 
 # Configuration
